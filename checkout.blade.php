@@ -21,7 +21,7 @@
             <h4> Your total: &euro; {{$total}}</h4>
             <form action="{{ route('checkout') }}" method="post" id="checkout-form"> 
             <label> Name: </label>
-            <input type="text" name="firstname" placeholder="Enter here your Firstname..." required>
+            <input type="text" name="name" placeholder="Enter here your Firstname..." required>
             <br>
             <br>
             <label> Surname: </label>
